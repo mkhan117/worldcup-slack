@@ -29,7 +29,7 @@ const announceEvent = (event, team, matchData) => {
 	const fields = [
 		{short: true, title: 'Team:', value: `${country} ${flagIcon}`},
 		{short: true, title: 'Player:', value: player},
-		{short: true, title: 'Current vsScore:', value: vsScore(matchData)},
+		{short: true, title: 'Current Score:', value: vsScore(matchData)},
 		{short: true, title: 'Time:', value: time}
 
 	];
