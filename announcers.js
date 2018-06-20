@@ -23,11 +23,11 @@ const announceEvent = (event, team, matchData) => {
 	const country = _.get(team, 'country');
 	const player = _.get(event, 'player');
 	const time = `${_.get(event, 'time')}`;
-
+	const flagIcon = _.get(teams, `${country.toLowerCase()}.flagIcon`);
 	const color = _.get(teams, `${country.toLowerCase()}.color`);
 
 	const fields = [
-		{short: true, title: 'Team:', value: country},
+		{short: true, title: 'Team:', value: `${country} ${flagIcon}`},
 		{short: true, title: 'Player:', value: player},
 		{short: true, title: 'Current vsScore:', value: vsScore(matchData)},
 		{short: true, title: 'Time:', value: time}
@@ -42,7 +42,7 @@ const todayUpcoming = async () => {
 	const fields = matches.map(m => ({
 		short: false,
 		title: vs(m),
-		value: moment(m.datetime).tz('Asia/Jerusalem').format('HH:mm (z)')
+		value: moment(m.datetime).tz('America/New_York').format('h:mm A (z)')
 	}));
 	return announce('Upcoming Matches today:', null, fields);
 };
@@ -60,7 +60,7 @@ const todaySummary = async () => {
 	const fieldsTomorrow = matchesTomorrow.map(m => ({
 		short: false,
 		title: vs(m),
-		value: moment(m.datetime).tz('Asia/Jerusalem').format('HH:mm (z)')
+		value: moment(m.datetime).tz('America/New_York').format('h:mm A (z)')
 	}));
 	return announce('Upcoming Matches tomorrow:', null, fieldsTomorrow);
 };

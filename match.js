@@ -26,10 +26,11 @@ class Match {
 			}
 		}
 
-		if (matchData.home_team_events.length !== this.matchData.home_team_events.length ||
-			matchData.away_team_events.length !== this.matchData.away_team_events.length) {
-			await this.reportEvents(matchData);
-		}
+		// NOTE: Disabled continous reporting of game events (fouls, subs, etc...)
+		// if (matchData.home_team_events.length !== this.matchData.home_team_events.length ||
+		// 	matchData.away_team_events.length !== this.matchData.away_team_events.length) {
+		// 	await this.reportEvents(matchData);
+		// }
 
 		if (matchData.home_team.goals !== this.matchData.home_team.goals ||
 			matchData.away_team.goals !== this.matchData.away_team.goals) {

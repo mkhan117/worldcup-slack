@@ -6,9 +6,9 @@ Node JS worker to update a slack channel with live match details from the 2018 w
 - Match start
 - Match end
 - Score Change
-- Match events (penalty, card, goal, ...)
+- Match events (penalty, card, goal, ...) // DISABLED IN THIS CLONE
 
-### Reports: 
+### Reports:
 Will report once a day on the following:
 - Upcoming matches today
 - Matches completed today (+scores)
@@ -45,6 +45,6 @@ A huge shout out to http://worldcup.sfg.io/ for the FIFA scraper ([estiens/world
 
 ## WARNING
 
-This was written in a rush the day World Cup in 2018 started. This is not good o proper code. 
+This was written in a rush the day World Cup in 2018 started. This is not good o proper code.
 This project is based on a scraper, and scraping is inherently a messy and brittle procedural process.
 My primary goal was the get something functional. Please do not use as an example of good Node.js code!

@@ -11,7 +11,8 @@ module.exports = {
 			fifa_code: 'RUS',
 			group_id: 1,
 			group_letter: 'A',
-			color: '#d32e28'
+			color: '#d32e28',
+			flagIcon: ':flag-rs'
 		},
 		'saudi arabia': {
 			id: 2,
@@ -19,7 +20,8 @@ module.exports = {
 			fifa_code: 'KSA',
 			group_id: 1,
 			group_letter: 'A',
-			color: '#0b6b37'
+			color: '#0b6b37',
+			flagIcon: ':flag-sa'
 		},
 		egypt: {
 			id: 3,
@@ -27,7 +29,8 @@ module.exports = {
 			fifa_code: 'EGY',
 			group_id: 1,
 			group_letter: 'A',
-			color: '#cc172d'
+			color: '#cc172d',
+			flagIcon: ':flag-eg'
 		},
 		uruguay: {
 			id: 4,
@@ -35,7 +38,8 @@ module.exports = {
 			fifa_code: 'URU',
 			group_id: 1,
 			group_letter: 'A',
-			color: '#77abd9'
+			color: '#77abd9',
+			flagIcon: ':flag-uy'
 		},
 		portugal: {
 			id: 5,
@@ -43,7 +47,8 @@ module.exports = {
 			fifa_code: 'POR',
 			group_id: 2,
 			group_letter: 'B',
-			color: '#fc0d1c'
+			color: '#fc0d1c',
+			flagIcon: ':flag-pt'
 		},
 		spain: {
 			id: 6,
@@ -51,7 +56,8 @@ module.exports = {
 			fifa_code: 'ESP',
 			group_id: 2,
 			group_letter: 'B',
-			color: '#c41126'
+			color: '#c41126',
+			flagIcon: ':flag-es'
 		},
 		morocco: {
 			id: 7,
@@ -59,7 +65,8 @@ module.exports = {
 			fifa_code: 'MAR',
 			group_id: 2,
 			group_letter: 'B',
-			color: '#bf2a32'
+			color: '#bf2a32',
+			flagIcon: ':flag-ma'
 		},
 		iran: {
 			id: 8,
@@ -67,7 +74,8 @@ module.exports = {
 			fifa_code: 'IRN',
 			group_id: 2,
 			group_letter: 'B',
-			color: '#149442'
+			color: '#149442',
+			flagIcon: ':flag-ir'
 		},
 		france: {
 			id: 9,
@@ -75,7 +83,8 @@ module.exports = {
 			fifa_code: 'FRA',
 			group_id: 3,
 			group_letter: 'C',
-			color: '#042992'
+			color: '#042992',
+			flagIcon: ':flag-fr'
 		},
 		australia: {
 			id: 10,
@@ -83,7 +92,8 @@ module.exports = {
 			fifa_code: 'AUS',
 			group_id: 3,
 			group_letter: 'C',
-			color: '#033739'
+			color: '#033739',
+			flagIcon: ':flag-au'
 		},
 		peru: {
 			id: 11,
@@ -91,7 +101,8 @@ module.exports = {
 			fifa_code: 'PER',
 			group_id: 3,
 			group_letter: 'C',
-			color: '#d7162b'
+			color: '#d7162b',
+			flagIcon: ':flag-pe'
 		},
 		denmark: {
 			id: 12,
@@ -99,7 +110,8 @@ module.exports = {
 			fifa_code: 'DEN',
 			group_id: 3,
 			group_letter: 'C',
-			color: '#c41335'
+			color: '#c41335',
+			flagIcon: ':flag-dk'
 		},
 		argentina: {
 			id: 13,
@@ -107,7 +119,8 @@ module.exports = {
 			fifa_code: 'ARG',
 			group_id: 4,
 			group_letter: 'D',
-			color: '#77abd9'
+			color: '#77abd9',
+			flagIcon: ':flag-ar'
 		},
 		iceland: {
 			id: 14,
@@ -115,7 +128,8 @@ module.exports = {
 			fifa_code: 'ISL',
 			group_id: 4,
 			group_letter: 'D',
-			color: '#063b94'
+			color: '#063b94',
+			flagIcon: ':flag-is'
 		},
 		croatia: {
 			id: 15,
@@ -123,7 +137,8 @@ module.exports = {
 			fifa_code: 'CRO',
 			group_id: 4,
 			group_letter: 'D',
-			color: '#fc0d1c'
+			color: '#fc0d1c',
+			flagIcon: ':flag-hr'
 		},
 		nigeria: {
 			id: 16,
@@ -131,7 +146,8 @@ module.exports = {
 			fifa_code: 'NGA',
 			group_id: 4,
 			group_letter: 'D',
-			color: '#2a3e3c'
+			color: '#2a3e3c',
+			flagIcon: ':flag-ng'
 		},
 		brazil: {
 			id: 17,
@@ -139,7 +155,8 @@ module.exports = {
 			fifa_code: 'BRA',
 			group_id: 5,
 			group_letter: 'E',
-			color: '#149442'
+			color: '#149442',
+			flagIcon: ':flag-br'
 		},
 		switzerland: {
 			id: 18,
@@ -147,7 +164,8 @@ module.exports = {
 			fifa_code: 'SUI',
 			group_id: 5,
 			group_letter: 'E',
-			color: '#fc0d1c'
+			color: '#fc0d1c',
+			flagIcon: ':flag-ch'
 		},
 		'costa rica': {
 			id: 19,
@@ -155,7 +173,8 @@ module.exports = {
 			fifa_code: 'CRC',
 			group_id: 5,
 			group_letter: 'E',
-			color: '#cc172d'
+			color: '#cc172d',
+			flagIcon: ':flag-cr'
 		},
 		serbia: {
 			id: 20,
@@ -163,7 +182,8 @@ module.exports = {
 			fifa_code: 'SRB',
 			group_id: 5,
 			group_letter: 'E',
-			color: '#c43840'
+			color: '#c43840',
+			flagIcon: ':flag-rs'
 		},
 		germany: {
 			id: 21,
@@ -171,7 +191,8 @@ module.exports = {
 			fifa_code: 'GER',
 			group_id: 6,
 			group_letter: 'F',
-			color: '#000000'
+			color: '#000000',
+			flagIcon: ':flag-de'
 		},
 		mexico: {
 			id: 22,
@@ -179,7 +200,8 @@ module.exports = {
 			fifa_code: 'MEX',
 			group_id: 6,
 			group_letter: 'F',
-			color: '#0b6748'
+			color: '#0b6748',
+			flagIcon: ':flag-mx'
 		},
 		sweden: {
 			id: 23,
@@ -187,7 +209,8 @@ module.exports = {
 			fifa_code: 'SWE',
 			group_id: 6,
 			group_letter: 'F',
-			color: '#0f6ca6'
+			color: '#0f6ca6',
+			flagIcon: ':flag-se'
 		},
 		'korea republic': {
 			id: 24,
@@ -195,7 +218,8 @@ module.exports = {
 			fifa_code: 'KOR',
 			group_id: 6,
 			group_letter: 'F',
-			color: '#c41335'
+			color: '#c41335',
+			flagIcon: ':flag-kr'
 		},
 		belgium: {
 			id: 25,
@@ -203,7 +227,8 @@ module.exports = {
 			fifa_code: 'BEL',
 			group_id: 7,
 			group_letter: 'G',
-			color: '#ed3645'
+			color: '#ed3645',
+			flagIcon: ':flag-be'
 		},
 		panama: {
 			id: 26,
@@ -211,7 +236,8 @@ module.exports = {
 			fifa_code: 'PAN',
 			group_id: 7,
 			group_letter: 'G',
-			color: '#d01739'
+			color: '#d01739',
+			flagIcon: ':flag-pa'
 		},
 		tunisia: {
 			id: 27,
@@ -219,7 +245,8 @@ module.exports = {
 			fifa_code: 'TUN',
 			group_id: 7,
 			group_letter: 'G',
-			color: '#e50b21'
+			color: '#e50b21',
+			flagIcon: ':flag-tn'
 		},
 		england: {
 			id: 28,
@@ -227,7 +254,8 @@ module.exports = {
 			fifa_code: 'ENG',
 			group_id: 7,
 			group_letter: 'G',
-			color: '#cd0f27'
+			color: '#cd0f27',
+			flagIcon: ':flag-england'
 		},
 		poland: {
 			id: 29,
@@ -235,7 +263,8 @@ module.exports = {
 			fifa_code: 'POL',
 			group_id: 8,
 			group_letter: 'H',
-			color: '#da1b40'
+			color: '#da1b40',
+			flagIcon: ':flag-pl'
 		},
 		senegal: {
 			id: 30,
@@ -243,7 +272,8 @@ module.exports = {
 			fifa_code: 'Sen',
 			group_id: 8,
 			group_letter: 'H',
-			color: '#108442'
+			color: '#108442',
+			flagIcon: ':flag-sn'
 		},
 		columbia: {
 			id: 31,
@@ -251,7 +281,8 @@ module.exports = {
 			fifa_code: 'COL',
 			group_id: 8,
 			group_letter: 'H',
-			color: '#fdcb32'
+			color: '#fdcb32',
+			flagIcon: ':flag-co'
 		},
 		japan: {
 			id: 32,
@@ -259,7 +290,8 @@ module.exports = {
 			fifa_code: 'JPN',
 			group_id: 8,
 			group_letter: 'H',
-			color: '#103b5d'
+			color: '#103b5d',
+			flagIcon: ':flag-p'
 		}
 	}
 };
