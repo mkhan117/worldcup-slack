@@ -5,9 +5,9 @@ const {teams} = require('./config');
 const {vs, vsScore, score} = require('./format');
 const {announce, slackLink} = require('./slack');
 
-const announceMatchStart = matchData => announce(`Game starts: ${vs(matchData)} (${_.get(matchData, 'location')}) - ${slackLink('Watch Live', 'https://www.kan.org.il/fifaworldcup/matches/')}`);
-const announceMatchComplete = matchData => announce(`Game ended: ${vsScore(matchData)} (${_.get(matchData, 'location')}) - ${slackLink('Watch Replay', 'https://www.kan.org.il/fifaworldcup/matches/')}`);
-const announceScore = matchData => announce(`Score update: ${vsScore(matchData)}`);
+const announceMatchStart = matchData => announce(`Game Started: ${vs(matchData)} -- Location: ${_.get(matchData, 'location')}`);
+const announceMatchComplete = matchData => announce(`Game Ended: ${vsScore(matchData)}`);
+const announceScore = matchData => announce(`Score Update: ${vsScore(matchData)}`);
 
 const events = {
 	goal: 'Goal!',
@@ -34,7 +34,9 @@ const announceEvent = (event, team, matchData) => {
 
 	];
 
-	return announce(title, color, fields);
+	if (type === 'goal' || type === 'goal-own' || name === 'Goal!' || name === 'Own goal!')
+		return announce(title, color, fields);
+	}
 };
 
 const todayUpcoming = async () => {
@@ -44,7 +46,7 @@ const todayUpcoming = async () => {
 		title: vs(m),
 		value: moment(m.datetime).tz('America/New_York').format('h:mm A (z)')
 	}));
-	return announce('Upcoming Matches today:', null, fields);
+	return announce('Upcoming Matches Today:', null, fields);
 };
 
 const todaySummary = async () => {
@@ -52,9 +54,9 @@ const todaySummary = async () => {
 	const fieldsToday = matchesToday.map(m => ({
 		short: false,
 		title: vs(m),
-		value: score(m)
+		value: vsScore(m)
 	}));
-	await announce('Matches played today:', null, fieldsToday);
+	await announce('Matches Played Today:', null, fieldsToday);
 
 	const matchesTomorrow = await get('/matches/tomorrow');
 	const fieldsTomorrow = matchesTomorrow.map(m => ({
@@ -62,7 +64,7 @@ const todaySummary = async () => {
 		title: vs(m),
 		value: moment(m.datetime).tz('America/New_York').format('h:mm A (z)')
 	}));
-	return announce('Upcoming Matches tomorrow:', null, fieldsTomorrow);
+	return announce('Upcoming Matches Tomorrow:', null, fieldsTomorrow);
 };
 
 module.exports = {

@@ -12,10 +12,10 @@ const getFlagIcon = (matchData, country) => {
 	return '';
 };
 
-const vs = matchData => `${getFlagIcon(matchData, 'home_team.country')} ${_.get(matchData, 'home_team.country')} vs ${getFlagIcon(matchData, 'away_team.country')} ${_.get(matchData, 'away_team.country')}`;
+const vs = matchData => `${getFlagIcon(matchData, 'home_team.country')} ${_.get(matchData, 'home_team.country')} vs ${_.get(matchData, 'away_team.country')} ${getFlagIcon(matchData, 'away_team.country')}`;
 const vsTime = matchData => `${vs(matchData)} (${new Date(matchData.datetime)})`;
 const vsScore = matchData => `${getFlagIcon(matchData, 'home_team.country')} ${_.get(matchData, 'home_team.country')} ${_.get(matchData, 'home_team.goals')} : ${_.get(matchData, 'away_team.goals')} ${_.get(matchData, 'away_team.country')} ${getFlagIcon(matchData, 'away_team.country')}`;
-const score = matchData => `${getFlagIcon(matchData, 'home_team.country')} ${_.get(matchData, 'home_team.goals')} : ${getFlagIcon(matchData, 'away_team.country')} ${_.get(matchData, 'away_team.goals')}`;
+const score = matchData => `${_.get(matchData, 'home_team.goals')} : ${_.get(matchData, 'away_team.goals')}`;
 
 module.exports = {
 	vs,
