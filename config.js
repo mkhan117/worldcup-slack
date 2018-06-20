@@ -12,7 +12,7 @@ module.exports = {
 			group_id: 1,
 			group_letter: 'A',
 			color: '#d32e28',
-			flagIcon: ':flag-rs'
+			flagIcon: ':flag-rs:'
 		},
 		'saudi arabia': {
 			id: 2,
@@ -21,7 +21,7 @@ module.exports = {
 			group_id: 1,
 			group_letter: 'A',
 			color: '#0b6b37',
-			flagIcon: ':flag-sa'
+			flagIcon: ':flag-sa:'
 		},
 		egypt: {
 			id: 3,
@@ -30,7 +30,7 @@ module.exports = {
 			group_id: 1,
 			group_letter: 'A',
 			color: '#cc172d',
-			flagIcon: ':flag-eg'
+			flagIcon: ':flag-eg:'
 		},
 		uruguay: {
 			id: 4,
@@ -39,7 +39,7 @@ module.exports = {
 			group_id: 1,
 			group_letter: 'A',
 			color: '#77abd9',
-			flagIcon: ':flag-uy'
+			flagIcon: ':flag-uy:'
 		},
 		portugal: {
 			id: 5,
@@ -48,7 +48,7 @@ module.exports = {
 			group_id: 2,
 			group_letter: 'B',
 			color: '#fc0d1c',
-			flagIcon: ':flag-pt'
+			flagIcon: ':flag-pt:'
 		},
 		spain: {
 			id: 6,
@@ -57,7 +57,7 @@ module.exports = {
 			group_id: 2,
 			group_letter: 'B',
 			color: '#c41126',
-			flagIcon: ':flag-es'
+			flagIcon: ':flag-es:'
 		},
 		morocco: {
 			id: 7,
@@ -66,7 +66,7 @@ module.exports = {
 			group_id: 2,
 			group_letter: 'B',
 			color: '#bf2a32',
-			flagIcon: ':flag-ma'
+			flagIcon: ':flag-ma:'
 		},
 		iran: {
 			id: 8,
@@ -75,7 +75,7 @@ module.exports = {
 			group_id: 2,
 			group_letter: 'B',
 			color: '#149442',
-			flagIcon: ':flag-ir'
+			flagIcon: ':flag-ir:'
 		},
 		france: {
 			id: 9,
@@ -84,7 +84,7 @@ module.exports = {
 			group_id: 3,
 			group_letter: 'C',
 			color: '#042992',
-			flagIcon: ':flag-fr'
+			flagIcon: ':flag-fr:'
 		},
 		australia: {
 			id: 10,
@@ -93,7 +93,7 @@ module.exports = {
 			group_id: 3,
 			group_letter: 'C',
 			color: '#033739',
-			flagIcon: ':flag-au'
+			flagIcon: ':flag-au:'
 		},
 		peru: {
 			id: 11,
@@ -102,7 +102,7 @@ module.exports = {
 			group_id: 3,
 			group_letter: 'C',
 			color: '#d7162b',
-			flagIcon: ':flag-pe'
+			flagIcon: ':flag-pe:'
 		},
 		denmark: {
 			id: 12,
@@ -111,7 +111,7 @@ module.exports = {
 			group_id: 3,
 			group_letter: 'C',
 			color: '#c41335',
-			flagIcon: ':flag-dk'
+			flagIcon: ':flag-dk:'
 		},
 		argentina: {
 			id: 13,
@@ -120,7 +120,7 @@ module.exports = {
 			group_id: 4,
 			group_letter: 'D',
 			color: '#77abd9',
-			flagIcon: ':flag-ar'
+			flagIcon: ':flag-ar:'
 		},
 		iceland: {
 			id: 14,
@@ -129,7 +129,7 @@ module.exports = {
 			group_id: 4,
 			group_letter: 'D',
 			color: '#063b94',
-			flagIcon: ':flag-is'
+			flagIcon: ':flag-is:'
 		},
 		croatia: {
 			id: 15,
@@ -138,7 +138,7 @@ module.exports = {
 			group_id: 4,
 			group_letter: 'D',
 			color: '#fc0d1c',
-			flagIcon: ':flag-hr'
+			flagIcon: ':flag-hr:'
 		},
 		nigeria: {
 			id: 16,
@@ -147,7 +147,7 @@ module.exports = {
 			group_id: 4,
 			group_letter: 'D',
 			color: '#2a3e3c',
-			flagIcon: ':flag-ng'
+			flagIcon: ':flag-ng:'
 		},
 		brazil: {
 			id: 17,
@@ -156,7 +156,7 @@ module.exports = {
 			group_id: 5,
 			group_letter: 'E',
 			color: '#149442',
-			flagIcon: ':flag-br'
+			flagIcon: ':flag-br:'
 		},
 		switzerland: {
 			id: 18,
@@ -165,7 +165,7 @@ module.exports = {
 			group_id: 5,
 			group_letter: 'E',
 			color: '#fc0d1c',
-			flagIcon: ':flag-ch'
+			flagIcon: ':flag-ch:'
 		},
 		'costa rica': {
 			id: 19,
@@ -174,7 +174,7 @@ module.exports = {
 			group_id: 5,
 			group_letter: 'E',
 			color: '#cc172d',
-			flagIcon: ':flag-cr'
+			flagIcon: ':flag-cr:'
 		},
 		serbia: {
 			id: 20,
@@ -183,7 +183,7 @@ module.exports = {
 			group_id: 5,
 			group_letter: 'E',
 			color: '#c43840',
-			flagIcon: ':flag-rs'
+			flagIcon: ':flag-rs:'
 		},
 		germany: {
 			id: 21,
@@ -192,7 +192,7 @@ module.exports = {
 			group_id: 6,
 			group_letter: 'F',
 			color: '#000000',
-			flagIcon: ':flag-de'
+			flagIcon: ':flag-de:'
 		},
 		mexico: {
 			id: 22,
@@ -201,7 +201,7 @@ module.exports = {
 			group_id: 6,
 			group_letter: 'F',
 			color: '#0b6748',
-			flagIcon: ':flag-mx'
+			flagIcon: ':flag-mx:'
 		},
 		sweden: {
 			id: 23,
@@ -210,7 +210,7 @@ module.exports = {
 			group_id: 6,
 			group_letter: 'F',
 			color: '#0f6ca6',
-			flagIcon: ':flag-se'
+			flagIcon: ':flag-se:'
 		},
 		'korea republic': {
 			id: 24,
@@ -219,7 +219,7 @@ module.exports = {
 			group_id: 6,
 			group_letter: 'F',
 			color: '#c41335',
-			flagIcon: ':flag-kr'
+			flagIcon: ':flag-kr:'
 		},
 		belgium: {
 			id: 25,
@@ -228,7 +228,7 @@ module.exports = {
 			group_id: 7,
 			group_letter: 'G',
 			color: '#ed3645',
-			flagIcon: ':flag-be'
+			flagIcon: ':flag-be:'
 		},
 		panama: {
 			id: 26,
@@ -237,7 +237,7 @@ module.exports = {
 			group_id: 7,
 			group_letter: 'G',
 			color: '#d01739',
-			flagIcon: ':flag-pa'
+			flagIcon: ':flag-pa:'
 		},
 		tunisia: {
 			id: 27,
@@ -246,7 +246,7 @@ module.exports = {
 			group_id: 7,
 			group_letter: 'G',
 			color: '#e50b21',
-			flagIcon: ':flag-tn'
+			flagIcon: ':flag-tn:'
 		},
 		england: {
 			id: 28,
@@ -255,7 +255,7 @@ module.exports = {
 			group_id: 7,
 			group_letter: 'G',
 			color: '#cd0f27',
-			flagIcon: ':flag-england'
+			flagIcon: ':flag-england:'
 		},
 		poland: {
 			id: 29,
@@ -264,7 +264,7 @@ module.exports = {
 			group_id: 8,
 			group_letter: 'H',
 			color: '#da1b40',
-			flagIcon: ':flag-pl'
+			flagIcon: ':flag-pl:'
 		},
 		senegal: {
 			id: 30,
@@ -273,7 +273,7 @@ module.exports = {
 			group_id: 8,
 			group_letter: 'H',
 			color: '#108442',
-			flagIcon: ':flag-sn'
+			flagIcon: ':flag-sn:'
 		},
 		columbia: {
 			id: 31,
@@ -282,7 +282,7 @@ module.exports = {
 			group_id: 8,
 			group_letter: 'H',
 			color: '#fdcb32',
-			flagIcon: ':flag-co'
+			flagIcon: ':flag-co:'
 		},
 		japan: {
 			id: 32,
@@ -291,7 +291,7 @@ module.exports = {
 			group_id: 8,
 			group_letter: 'H',
 			color: '#103b5d',
-			flagIcon: ':flag-p'
+			flagIcon: ':flag-jp:'
 		}
 	}
 };
