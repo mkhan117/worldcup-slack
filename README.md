@@ -6,7 +6,7 @@ Node JS worker to update a slack channel with live match details from the 2018 w
 - Match start
 - Match end
 - Score Change
-- Match events (penalty, card, goal, ...) // DISABLED IN THIS CLONE
+- Goal events
 
 ### Reports:
 Will report once a day on the following:
