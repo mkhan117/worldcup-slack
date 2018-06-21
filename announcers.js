@@ -34,7 +34,7 @@ const announceEvent = (event, team, matchData) => {
 
 	];
 
-	if (type === 'goal' || type === 'goal-own' || name === 'Goal!' || name === 'Own goal!')
+	if (type === 'goal' || type === 'goal-own' || name === 'Goal!' || name === 'Own goal!') {
 		return announce(title, color, fields);
 	}
 };
