@@ -277,7 +277,7 @@ module.exports = {
 		},
 		columbia: {
 			id: 31,
-			country: 'Columbia',
+			country: 'Colombia',
 			fifa_code: 'COL',
 			group_id: 8,
 			group_letter: 'H',

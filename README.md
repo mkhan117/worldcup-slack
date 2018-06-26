@@ -5,8 +5,7 @@ Node JS worker to update a slack channel with live match details from the 2018 w
 ### Notifications:
 - Match start
 - Match end
-- Score Change
-- Goal events
+- Score Change (goals)
 
 ### Reports:
 Will report once a day on the following:
